@@ -49,7 +49,13 @@
 
 
 ## Introdução <a name="introduction"></a>
-Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Buscamos então dados publicos e governamentais dentre eles dados históricos da **CNI**(Confederação Nacional da Indústria) e dados de reclamação disponibilizados pelo **PROCON** a nível nacional.
+Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. .
+
+
+
+
+
+<img src="./.img/manu_asset.png" alt="our stack of technology used">
 
 
 
@@ -59,15 +65,17 @@ Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema basta
 
 ## Objetivo <a name ="objective">
 
-Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos
-
-
+Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar então dados publicos e governamentais dentre eles dados históricos da **CNI**(Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional. Com o processamento e análise desses dados buscamos conhecer o nosso cliente, identificar problemas na prestação de serviço com o intuito de propor melhorias e evitar aumento no ***churn***.
 
 
 
 ## Projeto <a name ="projeto">
 
 Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o  *stack* de ferramentas que vai nos ajudar...{}
+
+
+
+
 
 
 
@@ -91,11 +99,19 @@ Só agora com a definição mais precisa do escopo de projeto fica mais fácil d
 
 - Jupyter Notebook -
 
-  > Ferramenta preferida na análise mais refinada de dados. O **Jupyter** pode ser configurado para realizar queries e tratamentos em cima da engine Spark se integrando muito bem ao ecossistema Apache/Hadoop/Spark e com uma infinidade de bancos SQL/NoSQL.
+  > Ferramenta do Cientista de Dados. O **Jupyter** pode ser configurado para realizar *queries* e *tratamentos* fazendo uso da engine Spark se integrando muito bem ao ecossistema Apache/Hadoop/Spark e com uma infinidade de bancos SQL/NoSQL.
 
+  
 
+- Oracle -
 
-- 
+  > SGBD número 1 a nível mundia. Famoso pela sua confiabilidade, velocidade e suporte é o  queridinho no eco sistema empresarial a nível mundial. É o destino final de nossos dados.
+
+  
+
+- NiFi
+
+  > 
 
 
 
