@@ -73,7 +73,17 @@ Só agora com a definição mais precisa do escopo de projeto fica mais fácil d
 
 <img src="./.img/stack.png" alt="our stack of technology used">
 
-- Hadoop(HDFS/YARN) - Apesar de 
+- Hadoop(HDFS/YARN) - 
+
+  > Sistema de arquivos distribuído com alta tolerância a falha com alta disponibilidade e baixo custo de implementação. Apesar de ter entrado em desuso muito por conta da mudança de paradigma da Engenharia de Dados ter se voltado ao PaaS(Plataform as a Service), o **HDFS** ainda vê os seus dias de gloria como um Data Lake de baixo no cenário on-premise e é ele que usaremos como nosso **Data Lake**.
+
+  > **YARN** é simplesmente o gerenciador de recursos e jobs, componente essencial do ecossistema Hadoop para processamento distribuído.
+
+
+
+- PySpark(Spark) -
+
+  > Nada mais é que uma **API**
 
 
 
