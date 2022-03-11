@@ -49,7 +49,7 @@
 
 
 ## Introdução <a name="introduction"></a>
-Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais dentre eles dados históricos da **CNI**(Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
+Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais, dentre eles dados históricos da **CNI** (Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
 
 
 
@@ -65,13 +65,17 @@ Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema basta
 
 ## Objetivo <a name ="objective">
 
- Com o processamento e análise desses dados, buscamos conhecer o nosso cliente, identificar problemas no pós-venda com o intuito de propor melhorias e evitar aumento no ***churn***.
+Com o processamento e análise desses dados buscamos: 
+
+1. Qualificar a persona que mais abre reclamação.
+2. Identificar quais os problemas no pós-venda 
+3. Propor *insights* .
 
 
 
 ## Projeto <a name ="projeto">
 
-Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o  *stack* de ferramentas que vai nos ajudar...{}
+Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o  *stack* de ferramentas que utilizaremos.
 
 
 
