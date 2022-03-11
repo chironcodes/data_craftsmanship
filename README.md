@@ -1,7 +1,6 @@
 <p align="center">
     <h1 align="center"> Artesanato de dados (0.9α)</h3>
 </p> 
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
@@ -18,19 +17,17 @@
 
 ----
 
-
-
-
+<p align="center">
+    <h1 align="center"> RoadMap
+</p> 
 
 - [Introdução](#introduction)
-
 - [Objetivo](#objective)
-
 - [Stack](#stack)
-  
-  
-  
-- [Trabalho futuro](#future_works)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
 
 
 
@@ -43,7 +40,7 @@
 
 
 ## Introdução <a name="introduction"></a>
-Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais, dentre eles dados históricos da **CNI** (Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
+​	Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais, dentre eles dados históricos da **CNI** (Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
 
 
 
@@ -69,7 +66,7 @@ Com o processamento e análise desses dados buscamos:
 
 ## Stack <a name ="stack">
 
-Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o *stack* de ferramentas que utilizaremos.
+Só agora com a definição mais precisa do escopo de projeto definimos o *stack* de ferramentas que utilizaremos.
 
 
 
