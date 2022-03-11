@@ -26,16 +26,10 @@
 
 - [Objetivo](#objective)
 
-- [Projeto](#projeto)
+- [Stack](#stack)
   
-  - 1.[Stack](#stack)
-    
-  -   2.[pch](#pch)
-  -   3.[pch](#pch)
-  -   4.[pch](#pch)
-
   
-
+  
 - [Trabalho futuro](#future_works)
 
 
@@ -68,22 +62,16 @@ Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema basta
 Com o processamento e análise desses dados buscamos: 
 
 1. Qualificar a persona que mais abre reclamação.
-2. Identificar quais os problemas no pós-venda 
-3. Propor *insights* .
+2. Identificar quais os problemas no pós-venda.
+3. Propor *insights*.
 
 
 
-## Projeto <a name ="projeto">
+## Stack <a name ="stack">
 
-Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o  *stack* de ferramentas que utilizaremos.
-
-
+Só agora com a definição mais precisa do escopo de projeto fica mais fácil definir o *stack* de ferramentas que utilizaremos.
 
 
-
-
-
-### 		1.Stack <a name ="stack">
 
 <img src="./.img/stack.png" alt="our stack of technology used">
 
