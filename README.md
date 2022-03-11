@@ -49,7 +49,7 @@
 
 
 ## Introdução <a name="introduction"></a>
-Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. .
+Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro.
 
 
 
@@ -83,35 +83,43 @@ Só agora com a definição mais precisa do escopo de projeto fica mais fácil d
 
 <img src="./.img/stack.png" alt="our stack of technology used">
 
-  - Hadoop(HDFS/YARN) - 
+  - **Hadoop(HDFS/YARN) -** 
 
     > Sistema de arquivos distribuído com alta tolerância a falha com alta disponibilidade e baixo custo de implementação. Apesar de ter entrado em desuso muito por conta da mudança de paradigma da Engenharia de Dados ter se voltado ao PaaS(Plataform as a Service), o **HDFS** ainda vê os seus dias de gloria como um Data Lake de baixo no cenário on-premise e é ele que usaremos como nosso **Data Lake**.
 
+    
+    
     > **YARN** é simplesmente o gerenciador de recursos e jobs, componente essencial do ecossistema Hadoop para processamento distribuído.
 
 
 
-  - PySpark(Spark) -
+  - **PySpark(Spark) -**
 
     > Nada mais é que uma **API python** para trabalhar sobre o Spark. O **Spark** por sua vez é uma *engine* de processamento de dados em larga escala que muito mais rápida que o Haddop. Parte da sua velocidade advém principalmente do fato que o Spark faz uso de armazenamento em **memória ram** o que por si só já lhe garante ampla vantagem sobre seu irmão mais novo. 
     
     
+    
+    
 
-- Jupyter Notebook -
+  - **Jupyter Notebook -**
 
-  > Ferramenta do Cientista de Dados. O **Jupyter** pode ser configurado para realizar *queries* e *tratamentos* fazendo uso da engine Spark se integrando muito bem ao ecossistema Apache/Hadoop/Spark e com uma infinidade de bancos SQL/NoSQL.
+    > Ferramenta do Cientista de Dados. O **Jupyter** pode ser configurado para realizar *queries* e *tratamentos* fazendo uso da engine Spark se integrando muito bem ao ecossistema Apache/Hadoop/Spark e com uma infinidade de bancos SQL/NoSQL.
 
-  
 
-- Oracle -
 
-  > SGBD número 1 a nível mundia. Famoso pela sua confiabilidade, velocidade e suporte é o  queridinho no eco sistema empresarial a nível mundial. É o destino final de nossos dados.
 
-  
 
-- NiFi
+  - **Oracle -**
 
-  > 
+    > SGBD número 1 a nível mundia. Famoso pela sua confiabilidade, velocidade e suporte é o  queridinho no eco sistema empresarial a nível mundial. É o destino final de nossos dados.
+
+
+
+  - **NiFi** -
+
+    > Uma ferramenta para automação de e roteamento de forma gráfica, escalonável e simples para movimentação e transformação(simples!) de dados. É uma excelente ferramenta para iniciar pelo baixa curva de aprendizado.
+
+    
 
 
 
