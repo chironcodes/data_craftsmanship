@@ -49,11 +49,11 @@
 
 
 ## Introdução <a name="introduction"></a>
-Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro.
+Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais dentre eles dados históricos da **CNI**(Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
 
 
 
-
+###### 
 
 <img src="./.img/manu_asset.png" alt="our stack of technology used">
 
@@ -65,7 +65,7 @@ Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema basta
 
 ## Objetivo <a name ="objective">
 
-Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais dentre eles dados históricos da **CNI**(Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional. Com o processamento e análise desses dados, buscamos conhecer o nosso cliente, identificar problemas na prestação de serviço com o intuito de propor melhorias e evitar aumento no ***churn***.
+ Com o processamento e análise desses dados, buscamos conhecer o nosso cliente, identificar problemas no pós-venda com o intuito de propor melhorias e evitar aumento no ***churn***.
 
 
 
