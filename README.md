@@ -101,11 +101,36 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
     > Uma ferramenta para automação e roteamento de forma gráfica, escalonável e simples para movimentação e transformação de dados pouco complexos. É uma excelente ferramenta para iniciar pelo baixa curva de aprendizado.
 
-    
+
+
+
+
+
+
+
+----
+
+
 
 
 
 ## Placeholder <a name ="placeholder">
+
+<img src="./.img/nifi-wf.png" alt="our stack of technology used">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
