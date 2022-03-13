@@ -21,21 +21,13 @@
 <h1 align="center"> RoadMap</h1>
 </p> 
 
-- [Introdução <a name="introduction"></a>](#introdução-)
-        - [](#)
-- [Objetivo <a name ="objective">](#objetivo-a-name-objective)
-- [Stack <a name ="stack">](#stack-a-name-stack)
-- [Placeholder <a name ="placeholder">](#placeholder-a-name-placeholder)
-- [Placeholder <a name ="placeholder">](#placeholder-a-name-placeholder-1)
-- [Placeholder <a name ="placeholder">](#placeholder-a-name-placeholder-2)
-- [Placeholder <a name ="placeholder">](#placeholder-a-name-placeholder-3)
-
-
-
--
-
-
-
+- [Introdução](#introduction)
+- [Objetivo](#objective)
+- [Stack](#stack)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
+- [placeholder](#placeholder)
 
 
 
