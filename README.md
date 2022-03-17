@@ -24,8 +24,8 @@
 - [Introdução](#introduction)
 - [Objetivo](#objective)
 - [Stack](#stack)
-- [placeholder](#placeholder)
-- [placeholder](#placeholder)
+- [Extração](#extraction)
+- [Transformação](#transformation)
 - [placeholder](#placeholder)
 - [placeholder](#placeholder)
 
@@ -114,12 +114,15 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
 
 
-## Placeholder <a name ="placeholder">
+## 1- Extração <a name ="extraction">
+
+Se dá então inicio ao nosso processo ETL.
 
 <img src="./.img/nifi-wf.png" alt="our stack of technology used">
 
 
 
+Com alguns poucos componentes estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado
 
 
 
@@ -135,7 +138,10 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
 
 
-## Placeholder <a name ="placeholder">
+
+## Transformation <a name ="transformation">
+
+Após finalizado nosso processo de extração...{}
 
 
 
