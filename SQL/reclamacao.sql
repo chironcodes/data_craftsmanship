@@ -1,0 +1,20 @@
+CREATE TABLE reclamacao (
+    ano INT,
+    trim INT,
+    mes INT,
+    dataatendimento VARCHAR(255),
+    cod_regiao INT,
+    regiao VARCHAR(255),
+    uf VARCHAR(255),
+    cod_tipoatendimento INT,
+    descricaotipoatendimento VARCHAR(255),
+    cod_assunto INT,
+    descricaoassunto VARCHAR(255),
+    grupoassunto VARCHAR(255),
+    cod_problema INT,
+    descricaoproblema VARCHAR(255),
+    grupoproblema VARCHAR(255),
+    sexo VARCHAR(255),
+    faixaetariaconsumidor VARCHAR(255),
+    cepconsumidor INT    
+);
