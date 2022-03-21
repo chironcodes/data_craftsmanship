@@ -123,7 +123,7 @@ Se dá então inicio ao nosso processo ETL.
 
 
 Com alguns poucos componentes estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado
-
+Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados são ingestados puros, sem tratamento prévio, mas ainda sim se atentando em manter um seus dados *catalogáveis* e com *governança* evitando que seu Data Lake vire um Data Swamp(pântano de dados).
 
 
 
@@ -141,7 +141,7 @@ Com alguns poucos componentes estabelecemos um fluxo automatizado que faz a sond
 
 ## Transformation <a name ="transformation">
 
-Após finalizado nosso processo de extração...{}
+Após finalizado nosso processo de extração, é dado início a nossa fase de transformação. Nessa fase fazemos o tratamento de dados tais quais a `limpeza` de dados faltantes ou nulos, `desnormalização` de dados que podem advir de bancos distintos ou pela `normalização` de tabelas relacionais de um mesmo. Também é pertinente a essa área a `filtragem` de atributos/colunas que sejam relevantes ou impactantes a análise a ser desenvolvida.
 
 
 
