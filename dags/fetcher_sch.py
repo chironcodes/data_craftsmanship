@@ -11,6 +11,10 @@ staging_folder = '/home/hadoop/staging'
 base_path_hdfs='/user/hadoop/airflow'
 
 
+year,month, day = date.today().strftime('%Y.%m.%d').split('.')
+
+
+
 default_args = {
     'retries': 5,
     'retry_delay': timedelta(minutes=5),
@@ -31,6 +35,8 @@ hdfs_bash_exists = """hdfs dfs -test -d {{ params.path }};
                         fi
 """
 
+hdfs_bash_mkdir = """hdfs dfs -mkdir {{ params.path }}"""
+
 
 with DAG(dag_id='staging_to_dlake', default_args=default_args,
  schedule_interval='@monthly', start_date=days_ago(30), catchup=False) as dag:
@@ -40,10 +46,32 @@ with DAG(dag_id='staging_to_dlake', default_args=default_args,
         print("On callback failures")
         print(context)
 
+    staging_area_sensor = FileSensor(
+        task_id= 'staging_area_sensor',
+        fs_conn_id=base_path_hdfs,
+        filepath='*',
+        poke_interval=10
+    )
 
     #check if path exists R->True/False
     hdfs_check_folder = BashOperator(
         task_id='hdfs_check_folder',
         bash_command=hdfs_bash_exists,
         params={'path' : base_path_hdfs},
+        log_response=True,
     )
+
+    hdfs_mkdir_folder = BashOperator(
+        task_id='hdfs_mkdir_folder',
+        bash_command=hdfs_bash_mkdir,
+        params={'path': base_path_hdfs+f'/{month}'}
+    )
+
+    move_dlake = BashOperator (
+        task_id='move_dlake',
+        bash_command=(f'hdfs dfs -put {staging_folder}/* {base_path_hdfs}')
+    )
+
+
+
+staging_area_sensor >> hdfs_check_folder
