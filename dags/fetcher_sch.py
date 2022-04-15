@@ -62,12 +62,14 @@ with DAG(dag_id='staging_to_dlake', default_args=default_args,
         log_response=True,
     )
 
+    #
     hdfs_mkdir_folder = BashOperator(
         task_id='hdfs_mkdir_folder',
         bash_command=hdfs_bash_mkdir,
         params={'path': base_path_hdfs+f'/{month}'}
     )
 
+    #move files from the staging to hdfs folder
     move_dlake = BashOperator (
         task_id='move_dlake',
         bash_command=(f'hdfs dfs -put {staging_folder}/* {base_path_hdfs}')
