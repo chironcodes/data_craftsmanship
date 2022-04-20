@@ -91,15 +91,15 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
 
 
-  - **Oracle -**
+  - **PostgreSQL -**
 
-    > SGBD número 1 a nível mundial. Famoso pela sua confiabilidade, velocidade e suporte é o  queridinho no eco sistema empresarial em todo mundo. É o destino final de nossos dados.
+    > SGBD número open source número 1 a nível mundial. Famoso pela sua confiabilidade, velocidade e suporte é o mais utilizado no eco sistema de Big Data em todo mundo. É o destino final de nossos dados.
 
 
 
-  - **NiFi** -
+  - **Airflow** -
 
-    > Uma ferramenta para automação e roteamento de forma gráfica, escalonável e simples para movimentação e transformação de dados pouco complexos. É uma excelente ferramenta para iniciar pelo baixa curva de aprendizado.
+    > Uma ferramenta para orquestração de fluxo de dados de maneira escalonável e simples. É uma excelente ferramenta para iniciar pelo baixa curva de aprendizado.
 
 
 
@@ -118,7 +118,7 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
 Se dá então inicio ao nosso processo ETL.
 
-<img src="./.img/nifi-wf.png" alt="our stack of technology used">
+<img src="./.img/airflow.png" alt="our stack of technology used">
 
 
 
