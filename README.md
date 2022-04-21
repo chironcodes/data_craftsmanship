@@ -26,8 +26,8 @@
 - [Stack](#stack)
 - [Extração](#extraction)
 - [Transformação](#transformation)
-- [placeholder](#placeholder)
-- [placeholder](#placeholder)
+- [Load](#load)
+- [Análise e visutalização](#analysis)
 
 
 
@@ -122,12 +122,13 @@ Se dá então inicio ao nosso processo ETL.
 
 
 
-Com alguns poucos componentes estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado
-Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados são ingestados puros, sem tratamento prévio, mas ainda sim se atentando em manter um seus dados *catalogáveis* e com *governança* evitando que seu Data Lake vire um Data Swamp(pântano de dados).
+Com alguns poucos providers estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado. Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados são ingestados puros, sem tratamento prévio, mas ainda sim se atentando em manter um seus dados *catalogáveis* e com *governança* evitando que seu Data Lake vire um Data Swamp(pântano de dados).
 
+</br>
 
+</br>
 
-
+</br>
 
 
 
@@ -143,17 +144,7 @@ Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados
 
 Após finalizado nosso processo de extração, é dado início a nossa fase de transformação. Nessa fase fazemos o tratamento de dados tais quais a `limpeza` de dados faltantes ou nulos, `desnormalização` de dados que podem advir de bancos distintos ou pela `normalização` de tabelas relacionais de um mesmo. Também é pertinente a essa área a `filtragem` de atributos/colunas que sejam relevantes ou impactantes a análise a ser desenvolvida.
 
-
-
-
-
-## Placeholder <a name ="placeholder">
-
-
-
-
-
-## Placeholder <a name ="placeholder">
+</br>
 
 
 
@@ -163,9 +154,49 @@ Após finalizado nosso processo de extração, é dado início a nossa fase de t
 
 
 
+## Load <a name ="load">
+
+<img src="./.img/loadpg.png" alt="our stack of technology used">
+
+</br>
+
+Ao final da fase de **transformação** já é inciada a fase  de **load**, onde os nossos DataFrame com os dados tratados são finalmente carregados no nosso Data Warehouse para posteriormente serem consumidos. Aqui de fato é 
+
+</br>
 
 
 
+## Análise e visualização <a name ="insight">
+
+Após o fim do nosso processo **ETL** os dados podem ser consumidos diretamente do`Data Warehouse` por uma ferramenta de BI. Nesse projeto utilizamos o **Google Data Studio** que já disponibiliza um conector a bancos PostgreSQL.
+
+
+
+Em primeira análise observamos um descritivo geral dos motivos da reclamação:
+
+
+
+<img src="./.img/insight1.png" alt="our stack of technology used">
+
+Em um segundo gráfico, filtramos apenas as reclamações referentes a 'Carro Nacional Zero' e 'Carro importado' podemos visualizar melhor quais as maiores causas de insatisfação dos consumidores na aquisição de um carro novo.
+
+<img src="./.img/insight2.png" alt="our stack of technology used">
+
+A exploração de bases relevantes possibilita a extração de insights que auxiliam a empresa na tomada de decisões. Em uma rápida análise nos permite perceber que uma dos principais motivos de reclamação é referente a problemas logísticos
+
+
+
+
+
+<img src="./.img/insight3.png" alt="our stack of technology used">
+
+
+
+Uma análise demográfica mais apurada também nos possibilita identificar onde o nosso público alvo mais se concentra, permitindo um investimento direcionado para máxima eficácia. 
+
+
+
+<img src="./.img/insight4.png" alt="our stack of technology used">
 
 
 
