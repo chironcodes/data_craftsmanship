@@ -140,7 +140,7 @@ Com alguns poucos providers estabelecemos um fluxo automatizado que faz a sondag
 
 
 
-## Transformation <a name ="transformation">
+## 2-Transformação <a name ="transformation">
 
 Após finalizado nosso processo de extração, é dado início a nossa fase de transformação. Nessa fase fazemos o tratamento de dados tais quais a `limpeza` de dados faltantes ou nulos, `desnormalização` de dados que podem advir de bancos distintos ou pela `normalização` de tabelas relacionais de um mesmo. Também é pertinente a essa área a `filtragem` de atributos/colunas que sejam relevantes ou impactantes a análise a ser desenvolvida.
 
@@ -154,7 +154,7 @@ Após finalizado nosso processo de extração, é dado início a nossa fase de t
 
 
 
-## Load <a name ="load">
+## 3-Carregamento <a name ="load">
 
 <img src="./.img/loadpg.png" alt="our stack of technology used">
 
@@ -182,7 +182,7 @@ Em um segundo gráfico, filtramos apenas as reclamações referentes a 'Carro Na
 
 <img src="./.img/insight2.png" alt="our stack of technology used">
 
-A exploração de bases relevantes possibilita a extração de insights que auxiliam a empresa na tomada de decisões. Em uma rápida análise nos permite perceber que uma dos principais motivos de reclamação é referente a problemas logísticos
+A exploração de bases relevantes possibilita a extração de insights que auxiliam a empresa na tomada de decisões. Em uma rápida análise é possível perceber que um dos principais motivos de reclamação é sobre prazos de entrega,  que podem ter como causa tanto o questões inerentes a fabricação e montagem, quanto por problemas de logística.
 
 
 
@@ -192,13 +192,15 @@ A exploração de bases relevantes possibilita a extração de insights que auxi
 
 
 
-Uma análise demográfica mais apurada também nos possibilita identificar onde o nosso público alvo mais se concentra, permitindo um investimento direcionado para máxima eficácia. 
+Uma análise demográfica mais apurada também nos possibilita identificar onde o nosso público alvo mais se concentra, permitindo um investimento eficaz. 
 
 
 
 <img src="./.img/insight4.png" alt="our stack of technology used">
 
 
+
+Com a análise da *persona* também é fundamental, por exemplo, no campo publicitário. Uma vez que temos o nosso público alvo  é  possível produzir ações mais concisas e direcionadas sempre buscando.
 
 
 
