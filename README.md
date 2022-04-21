@@ -9,7 +9,9 @@
 
 
 
-<img src="./.img/etl_arch.png" alt="classic ETL template">
+<p align='center'>
+    <img src="./.img/etl_arch.png" alt="classic ETL template">
+</p>
 
 > O intuito principal desse repositório é desenvolver, demonstrar e documentar parte do conhecimento que adquiri através de estudos sobre a área da Ciência/Engenharia de dados. Durante o decorrer desse projeto vamos passar por todas as etapas do fluxo do Big Data, da sua ingestão inicial de dados até a produção dos insights e propostas de intervenção.
 
@@ -26,8 +28,12 @@
 - [Stack](#stack)
 - [Extração](#extraction)
 - [Transformação](#transformation)
-- [Load](#load)
+- [Carregamento](#load)Load
 - [Análise e visutalização](#analysis)
+
+</br>
+
+</br>
 
 
 
@@ -39,7 +45,9 @@
 
 ###### 
 
-<img src="./.img/manu_asset.png" alt="our stack of technology used">
+<p align='center'>
+    <img src="./.img/manu_asset.png" alt="our stack of technology used">
+</p>
 
 
 
@@ -55,15 +63,19 @@ Com o processamento e análise desses dados buscamos:
 2. Identificar quais os problemas no pós-venda.
 3. Propor *insights*.
 
+</br>
+
+</br>
+
 
 
 ## Stack <a name ="stack">
 
 Só agora com a definição mais precisa do escopo de projeto definimos o *stack* de ferramentas que utilizaremos.
 
-
-
-<img src="./.img/stack.png" alt="our stack of technology used">
+<p align='center'>
+    <img src="./.img/stack.png" alt="our stack of technology used">
+</p>
 
   - **Hadoop(HDFS/YARN) -** 
 
@@ -87,13 +99,13 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
     > Ferramenta principal do Cientista de Dados. O **Jupyter** pode ser configurado para realizar *queries* e *tratamentos* fazendo uso da engine Spark e se integra muito bem ao ecossistema Apache/Hadoop/Spark.
 
-
+Load
 
 
 
   - **PostgreSQL -**
 
-    > SGBD número open source número 1 a nível mundial. Famoso pela sua confiabilidade, velocidade e suporte é o mais utilizado no eco sistema de Big Data em todo mundo. É o destino final de nossos dados.
+    > SGBD open source número 1 a nível mundial. Famoso pela sua confiabilidade, velocidade e suporte é o mais utilizado no eco sistema de Big Data em todo mundo. É o destino final de nossos dados.
 
 
 
@@ -118,7 +130,13 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
 Se dá então inicio ao nosso processo ETL.
 
-<img src="./.img/airflow.png" alt="our stack of technology used">
+<p align='center'>
+    <img src="./.img/airflow.png" alt="our stack of technology used">
+</p>
+
+</br>
+
+</br>
 
 
 
@@ -140,7 +158,7 @@ Com alguns poucos providers estabelecemos um fluxo automatizado que faz a sondag
 
 
 
-## 2-Transformação <a name ="transformation">
+## 2- Transformação <a name ="transformation">
 
 Após finalizado nosso processo de extração, é dado início a nossa fase de transformação. Nessa fase fazemos o tratamento de dados tais quais a `limpeza` de dados faltantes ou nulos, `desnormalização` de dados que podem advir de bancos distintos ou pela `normalização` de tabelas relacionais de um mesmo. Também é pertinente a essa área a `filtragem` de atributos/colunas que sejam relevantes ou impactantes a análise a ser desenvolvida.
 
@@ -154,13 +172,19 @@ Após finalizado nosso processo de extração, é dado início a nossa fase de t
 
 
 
-## 3-Carregamento <a name ="load">
+## 3- Carregamento <a name ="load">
 
-<img src="./.img/loadpg.png" alt="our stack of technology used">
+<p align='center'>
+    <img src="./.img/loadpg.png" alt="our stack of technology used">
+</p>
 
 </br>
 
-Ao final da fase de **transformação** já é inciada a fase  de **load**, onde os nossos DataFrame com os dados tratados são finalmente carregados no nosso Data Warehouse para posteriormente serem consumidos. Aqui de fato é 
+</br>
+
+
+
+Ao final da fase de **transformação** já é inciada a fase  de **load**, onde os nossos DataFrames com os dados já tratados são finalmente carregados no nosso Data Warehouse para posteriormente serem consumidos. Aqui de fato é 
 
 </br>
 
@@ -176,11 +200,23 @@ Em primeira análise observamos um descritivo geral dos motivos da reclamação:
 
 
 
-<img src="./.img/insight1.png" alt="our stack of technology used">
+<p align="center">
+    <img src="./.img/insight1.png" alt="our stack of technology used">
+</p>
 
-Em um segundo gráfico, filtramos apenas as reclamações referentes a 'Carro Nacional Zero' e 'Carro importado' podemos visualizar melhor quais as maiores causas de insatisfação dos consumidores na aquisição de um carro novo.
 
-<img src="./.img/insight2.png" alt="our stack of technology used">
+
+
+
+Em um segundo gráfico, filtramos apenas as recla¨mações referentes a 'Carro Nacional Zero' e 'Carro importado' podemos visualizar melhor quais as maiores causas de insatisfação dos consumidores na aquisição de um carro novo.
+
+<p align="center">
+    <img src="./.img/insight2.png" alt="our stack of technology used">
+</p>
+
+
+
+
 
 A exploração de bases relevantes possibilita a extração de insights que auxiliam a empresa na tomada de decisões. Em uma rápida análise é possível perceber que um dos principais motivos de reclamação é sobre prazos de entrega,  que podem ter como causa tanto o questões inerentes a fabricação e montagem, quanto por problemas de logística.
 
@@ -188,15 +224,23 @@ A exploração de bases relevantes possibilita a extração de insights que auxi
 
 
 
-<img src="./.img/insight3.png" alt="our stack of technology used">
+
+
+<p align="center">
+    <img src="./.img/insight3.png" alt="our stack of technology used">
+</p>
 
 
 
 Uma análise demográfica mais apurada também nos possibilita identificar onde o nosso público alvo mais se concentra, permitindo um investimento eficaz. 
 
+<p align="center">
+    <img src="./.img/insight4.png" alt="our stack of technology used">
+</p>
 
 
-<img src="./.img/insight4.png" alt="our stack of technology used">
+
+
 
 
 
