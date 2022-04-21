@@ -200,9 +200,7 @@ Uma análise demográfica mais apurada também nos possibilita identificar onde 
 
 
 
-Com a análise da *persona* também é fundamental, por exemplo, no campo publicitário. Uma vez que temos o nosso público alvo  é  possível produzir ações mais concisas e direcionadas sempre buscando.
-
-
+Com a análise criteriosa dos dados é possível construir em detalhes quem é a *persona* do nosso consumidor. Uma vez definido o nosso *target* podemos, por exemplo, estabelecer uma estratégia de marketing com maior excelência e assertividade no intuíto de melhorar o *branding* da empresa.
 
 
 
