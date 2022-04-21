@@ -28,7 +28,7 @@
 - [Stack](#stack)
 - [Extração](#extraction)
 - [Transformação](#transformation)
-- [Carregamento](#load)Load
+- [Carregamento](#load)
 - [Análise e visutalização](#analysis)
 
 </br>
