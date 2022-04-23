@@ -1,11 +1,7 @@
 <p align="center">
     <h1 align="center"> Artesanato de dados (0.9α)</h3>
 </p> 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-
-
+![GitHub repo size](https://img.shields.io/github/repo-size/chironcodes/data_craftsmanship?style=for-the-badge)![GitHub language count](https://img.shields.io/github/languages/count/chironcodes/data_craftsmanship?style=for-the-badge)![GitHub Repo stars](https://img.shields.io/github/stars/chironcodes/data_craftsmanship?style=for-the-badge)
 
 
 
@@ -20,8 +16,9 @@
 ----
 
 <p align="center">
-<h1 align="center"> RoadMap</h1>
+	<h1 align="center"> RoadMap</h1>
 </p> 
+</br>
 
 - [Introdução](#introduction)
 - [Objetivo](#objective)
@@ -39,6 +36,10 @@
 
 
 ## Introdução <a name="introduction"></a>
+<p align="center">
+	<h1 align="center"> RoadMap</h1>
+</p> 
+
 ​	Foi definido como objeto de estudo a **MANUFATURA**. Apesar de ser um tema bastante amplo, conseguir bases de dados se mostrou um desafio, já que dificilmente uma empresa abriria mão de bases de dados a um terceiro. Tendo em vista o desafio que encontramos ao procurar fontes de dados mais voltadas a *players* do mercado, passamos a buscar, então, dados públicos e governamentais, dentre eles dados históricos da **CNI** (Confederação Nacional da Indústria) e dados de reclamações disponibilizados pelo **PROCON** a nível nacional.
 
 
@@ -99,15 +100,9 @@ Só agora com a definição mais precisa do escopo de projeto definimos o *stack
 
     > Ferramenta principal do Cientista de Dados. O **Jupyter** pode ser configurado para realizar *queries* e *tratamentos* fazendo uso da engine Spark e se integra muito bem ao ecossistema Apache/Hadoop/Spark.
 
-Load
-
-
-
   - **PostgreSQL -**
 
     > SGBD open source número 1 a nível mundial. Famoso pela sua confiabilidade, velocidade e suporte é o mais utilizado no eco sistema de Big Data em todo mundo. É o destino final de nossos dados.
-
-
 
   - **Airflow** -
 
@@ -140,7 +135,7 @@ Se dá então inicio ao nosso processo ETL.
 
 
 
-Com alguns poucos providers estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado. Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados são ingestados puros, sem tratamento prévio, mas ainda sim se atentando em manter um seus dados *catalogáveis* e com *governança* evitando que seu Data Lake vire um Data Swamp(pântano de dados).
+Com alguns poucos providers estabelecemos um fluxo automatizado que faz a sondagem da nossa *staging area* por novos arquivos e os insere em nosso Data Lake. Nessa fase os dados podem se apresentar nos mais diversos formatos(SQL, XML, CSV, PDF), estruturados e não estruturado. Nessa fase de ingestão inicial a `velocidade` é fundamental, por isso os dados são ingestados brutos, sem tratamento prévio, mas ainda sim se atentando em manter seus dados *catalogáveis* e com mínima *governança* evitando que seu Data Lake vire um Data Swamp(pântano de dados).
 
 </br>
 
@@ -165,6 +160,8 @@ Após finalizado nosso processo de extração, é dado início a nossa fase de t
 </br>
 
 
+
+[Notebook de tratamento](.notebook/dataTreatment.ipynb "Tratamento de dado")
 
 
 
